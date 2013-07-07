@@ -1,8 +1,8 @@
 var express = require('express');
 var fs = require('fs');
 
-var txtfile = fs.readFileSyn('index.html');
-var hellobuf = new Buffer(txtrfile, "utf-8")
+var txtfile = fs.readFileSync('index.html');
+var hellobuf = new Buffer(txtfile, "utf-8")
  
 var app = express.createServer(express.logger());
 
